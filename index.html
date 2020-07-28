@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Font Links -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+    <!--CSS Links-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Utilities</title>
+  </head>
+  <body>
+    <!-- Border -->
+    <section>
+      <h1>Border</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="box border border-danger rounded"></div>
+          </div>
+          <div class="col-md-4">
+            <div class="box border border-success rounded-pill"></div>
+          </div>
+          <div class="col-md-4">
+            <div class="box border border-info rounded-lg"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Close Icon -->
+    <section>
+      <h1>Close Icon</h1>
+      <div class="container">
+        <div class="box w-25 mx-auto">
+          <button type="button" class="close" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Colors -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Colors</h1>
+            <p class="text-primary">.text-primary</p>
+            <p class="text-secondary">.text-secondary</p>
+            <p class="text-success">.text-success</p>
+            <p class="text-danger">.text-danger</p>
+            <p class="text-warning">.text-warning</p>
+            <p class="text-info">.text-info</p>
+          </div>
+          <div class="col-md-6">
+            <h1>Background color</h1>
+            <div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+            <div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+            <div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+            <div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+            <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+            <div class="p-3 mb-2 bg-info text-white">.bg-info</div>
+            <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Embeds -->
+    <section>
+      <h1>Embeds</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/t2ByLmLnYJ8" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe class="embed-responsive-item" src="https://subrinalisa.github.io/ComplexLayout/" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Flex -->
+    <section class="container">
+      <h1>Flex</h1>
+      <div class="d-flex p-2 bg-info mb-3">I'm a flexbox container!</div>
+      <div class="d-inline-flex p-2 bg-info mb-3">I'm an inline flexbox container!</div>
+    </section>
+    <section class="container">
+      <h2>Flex Row</h2>
+      <div class="d-flex flex-row bg-info mb-3">
+        <div class="p-2 border">Flex item 1</div>
+        <div class="p-2 border">Flex item 2</div>
+        <div class="p-2 border">Flex item 3</div>
+      </div>
+      <h2>Flex Column</h2>
+      <div class="d-flex flex-column bg-info mb-3">
+        <div class="p-2 border">Flex item 1</div>
+        <div class="p-2 border">Flex item 2</div>
+        <div class="p-2 border">Flex item 3</div>
+      </div>
+    </section>
+    <section class="container">
+      <h2>Justify Content</h2>
+      <div class="d-flex justify-content-start">
+        <p class="p-2 bg-info border">Flex item 1</p>
+        <p class="p-2 bg-info border">Flex item 2</p>
+        <p class="p-2 bg-info border">Flex item 3</p>
+      </div>
+      <div class="d-flex justify-content-end">
+        <p class="p-2 bg-info border">Flex item 1</p>
+        <p class="p-2 bg-info border">Flex item 2</p>
+        <p class="p-2 bg-info border">Flex item 3</p>
+      </div>
+      <div class="d-flex justify-content-center">
+        <p class="p-2 bg-info border">Flex item 1</p>
+        <p class="p-2 bg-info border">Flex item 2</p>
+        <p class="p-2 bg-info border">Flex item 3</p>
+      </div>
+      <div class="d-flex justify-content-between">
+        <p class="p-2 bg-info border">Flex item 1</p>
+        <p class="p-2 bg-info border">Flex item 2</p>
+        <p class="p-2 bg-info border">Flex item 3</p>
+      </div>
+      <div class="d-flex justify-content-around">
+        <p class="p-2 bg-info">Flex item 1</p>
+        <p class="p-2 bg-info">Flex item 2</p>
+        <p class="p-2 bg-info">Flex item 3</p>
+      </div>
+    </section>
+    <section class="container">
+      <h2>Fill</h2>
+      <div class="d-flex">
+        <div class="p-2 flex-fill bg-info text-white border">Flex item with a lot of content</div>
+        <div class="p-2 flex-fill bg-info text-white border">Flex item</div>
+        <div class="p-2 flex-fill bg-info text-white border">Flex item</div>
+      </div>
+      <h2>Grow and shrink</h2>
+      <div class="d-flex mb-3">
+        <div class="p-2 flex-grow-1 bg-info border">flex-grow-1</div>
+        <div class="p-2 bg-info border">Flex item</div>
+        <div class="p-2 bg-info border">Third flex item</div>
+      </div>
+      <div class="d-flex">
+        <div class="p-2 w-100 bg-info text-white border">Flex item</div>
+        <div class="p-2 flex-shrink-1 bg-info text-white border">flex-shrink-1</div>
+      </div>
+    </section>
+    <!-- Float -->
+    <section>
+      <h1>Float</h1>
+      <div class="container">
+        <p class="border float-left bg-secondary p-2 text-white">Float left on all viewport sizes</p>
+        <p class="border float-right bg-secondary p-2 text-white">Float right on all viewport sizes</p>
+      </div>
+      <h1>Text selection</h1>
+      <div class="container bg-secondary text-white">
+        <p class="user-select-all">This paragraph will be entirely selected when clicked by the user.</p>
+        <p class="user-select-auto">This paragraph has the default select behavior.</p>
+        <p class="user-select-none">This paragraph will not be selectable when clicked by the user.</p>
+      </div>
+      <h1>Shadows</h1>
+      <div class="container">
+        <div class="shadow-none p-3 mb-5 bg-light rounded">No shadow</div>
+        <div class="shadow-sm p-3 mb-5 bg-white rounded">Small shadow</div>
+        <div class="shadow p-3 mb-5 bg-white rounded">Regular shadow</div>
+        <div class="shadow-lg p-3 mb-5 bg-white rounded">Larger shadow</div>
+      </div>
+      <h1>Stretched link</h1>
+      <div class="container">
+        <div class="row no-gutters bg-light position-relative">
+          <div class="col-md-6 mb-md-0 p-md-4">
+            <img src="images/card2.jpg" class="w-100" alt="card">
+          </div>
+          <div class="col-md-6 position-static p-4 pl-md-0">
+            <h5 class="mt-0">Columns with stretched link</h5>
+            <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+            <a href="#" class="stretched-link">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <h1>Vertical alignment</h1>
+      <div class="container">
+        <span class="align-baseline bg-secondary text-white">baseline</span>
+        <span class="align-top bg-primary text-white">top</span>
+        <span class="align-middle bg-dark text-white">middle</span>
+        <span class="align-bottom bg-success text-white">bottom</span>
+        <span class="align-text-top bg-warning text-white">text-top</span>
+        <span class="align-text-bottom bg-danger text-white">text-bottom</span>
+      </div>
+    </section>
+    <!-- jQuery Links-->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!--  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

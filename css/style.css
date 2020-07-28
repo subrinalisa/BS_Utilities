@@ -1,0 +1,10 @@
+h1{
+	margin: 20px 0;
+}
+h1,h2,p{
+	text-align: center;
+}
+.box{
+	min-height: 100px;
+	background: #f2f2f2;
+}
